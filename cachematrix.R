@@ -3,6 +3,7 @@
 
 ## Write a short comment describing this function
 
+## This function stores the four functions and make a list of it. It's similar to stream in Scheme.
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -19,6 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
+## This get the value if not null or calculates and put into cache
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     m <- x$getinverse()
